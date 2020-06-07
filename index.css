@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+article:nth-child(1) {
+  background-color: red;
+  width: 50%;
+  float: left;
+  height: 10rem;
+  text-align: center;
+  line-height: 10rem;
+  clip-path:polygon(0% 0%, 0% 100%, 0% 50%, 0% 100%, 90% 100%, 100% 50%, 100% 0%)
+}
+article:nth-child(2) {
+  background-color: green;
+  width: 50%;
+  float: right;
+  height: 10rem;
+  text-align: center;
+  line-height: 10rem;
+  clip-path: polygon(0% 0%, 0% 50%, 10% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 1%);
+}
+
+article:nth-child(3) {
+  background-color: blue;
+  width: 50%;
+  float: left;
+  height: 10rem;
+  text-align: center;
+  line-height: 10rem;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 50%, 90% 0%);
+}
+article:nth-child(4) {
+  background-color: yellow;
+  width: 50%;
+  float: right;
+  height: 10rem;
+  text-align: center;
+  line-height: 10rem;
+  clip-path: polygon(10% 0%, -10% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 0%);
+}
+
+article:nth-child(5) {
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  border: 1px solid;
+  height: 20rem;
+  text-align: center;
+  line-height: 20rem;
+  z-index: -1;
+}
